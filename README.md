@@ -16,10 +16,8 @@ The volume bar on the screen shows the current volume level, and the system volu
 # Requirements
 Make sure you have the following Python packages installed:
 
-bash
-Copy
-Edit
 pip install opencv-python mediapipe numpy pycaw comtypes
+
 opencv-python → for webcam access and drawing visuals
 
 mediapipe → for hand tracking landmarks
@@ -31,9 +29,7 @@ pycaw → for controlling Windows system volume
 time (comes with Python) → for FPS calculation
 
 # Project Structure
-pgsql
-Copy
-Edit
+
 volumeHandControl.py       # Main script to control volume
 handTrackingModule.py      # Custom hand tracking wrapper using MediaPipe
 # How to Run
