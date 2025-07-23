@@ -1,6 +1,8 @@
 # Volume Control using Hand Tracking
 This project allows you to control system volume using hand gestures detected through a webcam.
 It uses OpenCV for video capture and visualization, MediaPipe for hand landmark detection, and PyCaw to interact with the system audio volume.
+This is based on handTracking module which detects the 21 landmarks on the cropped image of your hand, the handTracking module is prebuilt individually and itd directly imported
+The module is present in the repo and i have a seperate repositary for it and its basics
 
 # How It Works
 The webcam captures your hand in real-time.
