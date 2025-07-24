@@ -18,7 +18,7 @@ The volume bar on the screen shows the current volume level, and the system volu
 # Requirements
 Make sure you have the following Python packages installed:
 
-# pip install opencv-python mediapipe numpy pycaw comtypes
+     pip install opencv-python mediapipe numpy pycaw comtypes
 
 opencv-python → for webcam access and drawing visuals
 
